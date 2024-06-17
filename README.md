@@ -40,7 +40,7 @@ Image features, including persons, bicycles, vehicles, sky, greenness, etc., can
 - Data Analysis Libraries: pandas, NumPy, SciPy
 - Visualization Tools: Matplotlib, Seaborn, Plotly
 
-## Challenges and Considerations
+## Challenges and considerations
 - Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. 
   
 ## Expected outcomes
