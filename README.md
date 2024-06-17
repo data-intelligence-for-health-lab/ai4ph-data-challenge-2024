@@ -28,9 +28,10 @@ The datasets are Google Street View (GSV) images of major cities in Canada, whic
 Image features, including persons, bicycles, vehicles, sky, greenness, etc., can be extracted through deep learning algorithms, like Image Classification (PSPNet - https://github.com/segcv/PSPNet) and Object Detection (Yolo - https://github.com/ultralytics/ultralytics) .
 
 ## Project outline
-### Research question 1, for example, you could come up with the hypothesis that areas with higher levels of greenness, better-maintained roads and sidewalks have lower material and social deprivation.
+### Project example: you could come up with the hypothesis that areas with higher levels of greenness, better-maintained roads and sidewalks have lower material and social deprivation.
 
 - Data collection
+- - Choose the data from one of the five cities.
 - Data preprocessing
 - Model development
 - Training and validation
