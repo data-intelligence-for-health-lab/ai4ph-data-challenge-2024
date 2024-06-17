@@ -31,24 +31,32 @@ Image features, including persons, bicycles, vehicles, sky, greenness, etc., can
 ### Project example: you could come up with the hypothesis that areas with higher levels of greenness, better-maintained roads and sidewalks have lower material and social deprivation.
 
 - Data collection
-- - Choose the data from one of the five cities.
+  - Choose the data from one of the five cities.
 - Data preprocessing
+  - Feature extraction: Use computer vision techniques (e.g., CNNs, object detection, image segmentation) to extract features from the images.
 - Model development
+  - Develop machine learning models (e.g., random forests, gradient boosting, neural networks) to predict deprivation indices based on extracted features.
 - Training and validation
+  - Using the annotated dataset, optimizing for performance metrics such as accuracy, precision, recall, and F1-score.
 - Feature analysis and correlation
+  - Conduct feature importance analysis to identify the most significant predictors of deprivation.
 - Evaluation and impact
+  - Test the models on unseen data to evaluate their robustness and generalizability.
+  - Provide visualizations or insights about urban public health based on the model results.
 
 ## Tools and techniques
 - Programming Languages: Python
 - Deep Learning Frameworks: TensorFlow, Keras, PyTorch
-- Image Processing Libraries: OpenCV, scikit-image, YOLO
+- Image Processing Libraries: OpenCV, scikit-image, Yolo - https://github.com/ultralytics/ultralytics, PSPNet - https://github.com/segcv/PSPNet
 - Data Analysis Libraries: pandas, NumPy, SciPy
 - Visualization Tools: Matplotlib, Seaborn, Plotly
 
 ## Challenges and considerations
-- Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. 
+- Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. Destroy the data after the completion of the summer institute. 
   
 ## Expected outcomes
-- Deprivation assessment Tool: A robust deep learning model capable of assessing material and social deprivation from street-level images.
-- Insightful analysis: Enhanced understanding of the visual indicators of deprivation and their socio-economic correlations.
+- Deprivation prediction method: A robust deep learning model capable of predicting material or social deprivation from street-level images.
+- Presentation (key components)
+  - Research question: List and explain the hypotheses regarding indicators of deprivation from street features
+  - Insightful analysis: The understanding of the visual indicators of deprivation and their correlations to deprivation or urban public health.
 
