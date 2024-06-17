@@ -11,21 +11,25 @@ This Data Challenge project aims to develop a deep learning model that analyzes 
 
 The street view images from five Canadian cities and public health related data - Material and Social Deprivation indices - have been provided. You and your team should apply deep learning algorithms you learned to extract street features (i.e., greenness, sky proportion, pedestrian count, etc.) and raise appropriate research questions to provide insights into Canadian urban public health.
 
+
 ## Datasets
 
-The study area included data from five large cities across Canada: Vancouver, Calgary, Winnipeg, Toronto, and Montreal. We randomly selected 1000 postal codes for each city, and each postal code contained 12 images. 
-You do not need to analyze all images from all cities, choose data wisely based on the specific research questions you raise.
-- The dataset contains 5 elements, such as postal code (POSTALCODE_15), city name (COMM_NAME_15), dissemination area (DA), material deprivation (SCOREMAT), and social deprivation (SCORESOC), which is linked from 3 individual tables. 
+The study area included data from five large cities across Canada: Vancouver, Calgary, Winnipeg, Toronto, and Montreal. We randomly selected 1000 postal codes for each city, and each postal code contained 12 images. You do not need to analyze all images from all cities, but choose one city based on the specific research questions you raise. 
+
+We provided a data table that linked the postal codes of each city to their deprivation indices (material and social deprivation status):
+- The dataset contains 5 elements, such as postal code (POSTALCODE_15), city name (COMM_NAME_15), dissemination area (DA), material deprivation (SCOREMAT), and social deprivation (SCORESOC), which are linked from 3 individual tables. 
 		
 Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a better status (less deprivation), while scores higher than zero indicate a worse status (more deprivation).
+
 - The image dataset
 
-The datasets are Google Street View (GSV) images of major cities in Canada, which is scrapped for the following published paper https://www.nature.com/articles/s41598-022-22630-1. For this project, we can select the following major cities for investigation: Vancouver, Calgary, Winnipeg, Toronto, and Montreal. 
-Images are postal-code level and are grouped by provinces. For each postal code, 12 images are included. Six of them were taken at a 0-degree angle from the horizontal line and the other six were at 60 degrees. At the same horizontal angle, the camera was rotated 60 degrees each time to take a picture, ending up with six angels: 0°, 60°, 120°, 180°, 240°, 300°. For example (see below), ‘T0A0A6_0_120.jpg’ shows a picture taken at a 0-degree horizontal angle, and 120° rotated and the postal code is T0A0A6.
+The datasets are Google Street View (GSV) images of major cities in Canada, which are scrapped for the following published paper https://www.nature.com/articles/s41598-022-22630-1. Images are postal-code level and are grouped by cities. For each postal code, 12 images are included. Six of them were taken at a 0-degree angle from the horizontal line and the other six were at 60 degrees. At the same horizontal angle, the camera was rotated 60 degrees each time to take a picture, ending up with six angels: 0°, 60°, 120°, 180°, 240°, 300°. For example (see below), ‘T0A0A6_0_120.jpg’ shows a picture taken at a 0-degree horizontal angle, and 120° rotated and the postal code is T0A0A6.
 
 Image features, including persons, bicycles, vehicles, sky, greenness, etc., can be extracted through deep learning algorithms, like Image Classification (PSPNet - https://github.com/segcv/PSPNet) and Object Detection (Yolo - https://github.com/ultralytics/ultralytics) .
 
 ## Project outline
+### Research question 1, for example, you could come up with the hypothesis that areas with higher levels of greenness, better-maintained roads and sidewalks have lower material and social deprivation.
+
 - Data collection
 - Data preprocessing
 - Model development
