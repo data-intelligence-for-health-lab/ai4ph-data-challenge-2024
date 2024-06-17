@@ -43,7 +43,7 @@ Image features, including persons, bicycles, vehicles, sky, greenness, etc., can
 ## Challenges and Considerations
 - Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. 
   
-* Expected outcomes
+## Expected outcomes
 - Deprivation assessment Tool: A robust deep learning model capable of assessing material and social deprivation from street-level images.
 - Insightful analysis: Enhanced understanding of the visual indicators of deprivation and their socio-economic correlations.
 
