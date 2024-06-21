@@ -30,9 +30,18 @@ Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a bet
 - The image dataset
 
 <p align="center">
-  <img src="https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/c3c5bdbc-78ff-4006-9db0-7bc4f25c6663" alt="Image 1" width="200"/>
-  <img src="URL_TO_IMAGE2" alt="Image 2" width="200"/>
-  <img src="URL_TO_IMAGE3" alt="Image 3" width="200"/>
+  <figure style="display:inline-block; margin:10px;">
+     <img src="https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/c3c5bdbc-78ff-4006-9db0-7bc4f25c6663" alt="Image 1" width="200"/>
+    <figcaption>T0A0A6_0_0.jpg</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+     <img src="https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/1edc8048-51d5-4879-8e76-2142b50f53b9" alt="Image 2" width="200"/>
+    <figcaption>T0A0A6_0_60.jpg</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+   <img src="https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/d41f8e2a-83fe-424a-9cd1-42d130252eef" alt="Image 3" width="200"/>
+    <figcaption>T0A0A6_0_120.jpg</figcaption>
+  </figure>
 </p>
 
 |  |  |  |
