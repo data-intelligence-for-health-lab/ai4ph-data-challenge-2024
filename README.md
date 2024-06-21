@@ -33,20 +33,11 @@ Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a bet
 | --- | --- | --- |
 | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/c3c5bdbc-78ff-4006-9db0-7bc4f25c6663) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/1edc8048-51d5-4879-8e76-2142b50f53b9) |![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/d41f8e2a-83fe-424a-9cd1-42d130252eef) |
 | T0A0A6_0_0.jpg | T0A0A6_0_60.jpg | T0A0A6_0_120.jpg |
-| ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/87c3425e-f2d0-4419-bf2f-8cf9e06f2a14)
- | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/234b0891-06bf-4aea-a50f-62e828e724f3)
- | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/662f54f4-7d95-44ef-9e06-381b51492fa8)
- |
+| ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/87c3425e-f2d0-4419-bf2f-8cf9e06f2a14) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/234b0891-06bf-4aea-a50f-62e828e724f3) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/662f54f4-7d95-44ef-9e06-381b51492fa8) |
 | T0A0A6_0_180.jpg | T0A0A6_0_240.jpg | T0A0A6_0_300.jpg |
-| ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/57e23f7d-2b08-47bf-a786-2cdcfd045cc3)
- |![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/4a0c71e1-e8fd-4225-9e09-df33a51a2841)
- | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/5a79dda3-2273-4118-92e1-8e486b7a8ce3)
- |
+| ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/57e23f7d-2b08-47bf-a786-2cdcfd045cc3) |![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/4a0c71e1-e8fd-4225-9e09-df33a51a2841)  ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/5a79dda3-2273-4118-92e1-8e486b7a8ce3) |
 | T0A0A6_60_0.jpg | T0A0A6_60_60.jpg | T0A0A6_60_120.jpg |
-| ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/40a79c75-704f-40b4-8069-d0cbb77a9173)
- | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/b90783cb-a346-4f04-b9ad-b379a7e38d58)
- | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/91efb5c4-b476-4fe0-ba1d-16537345662a)
- |
+| ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/40a79c75-704f-40b4-8069-d0cbb77a9173) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/b90783cb-a346-4f04-b9ad-b379a7e38d58) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/91efb5c4-b476-4fe0-ba1d-16537345662a) |
 | T0A0A6_60_180.jpg | T0A0A6_60_240.jpg | T0A0A6_60_300.jpg |
 
 
