@@ -28,9 +28,16 @@ We provided a data table that linked the postal codes of each city to their depr
 Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a better status (less deprivation), while scores higher than zero indicate a worse status (more deprivation).
 
 - The image dataset
+
+<p align="center">
+  <img src="![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/c3c5bdbc-78ff-4006-9db0-7bc4f25c6663)" alt="Image 1" width="200"/>
+  <img src="URL_TO_IMAGE2" alt="Image 2" width="200"/>
+  <img src="URL_TO_IMAGE3" alt="Image 3" width="200"/>
+</p>
+
 |  |  |  |
 | --- | --- | --- |
-| ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/c3c5bdbc-78ff-4006-9db0-7bc4f25c6663) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/1edc8048-51d5-4879-8e76-2142b50f53b9) |![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/d41f8e2a-83fe-424a-9cd1-42d130252eef) |
+|  | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/1edc8048-51d5-4879-8e76-2142b50f53b9) |![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/d41f8e2a-83fe-424a-9cd1-42d130252eef) |
 | T0A0A6_0_0.jpg | T0A0A6_0_60.jpg | T0A0A6_0_120.jpg |
 | git diff | Show file differences that haven't been staged | List all new or modified files |
 
