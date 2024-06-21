@@ -33,14 +33,10 @@ Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a bet
 
 T0A0A6_0_0.jpg T0A0A6_0_60.jpg T0A0A6_0_120.jpg
      |
-|-------------------------------|-------------------------------------|------------------------|
-| AI4PH Data Challenge Team 1   | collab_ai4ph_data_challenge_team1   | Data for City 1        |
-| AI4PH Data Challenge Team 2   | collab_ai4ph_data_challenge_team2   | Data for City 2        |
-| AI4PH Data Challenge Team 3   | collab_ai4ph_data_challenge_team3   | Data for City 3        |
-| AI4PH Data Challenge Team 4   | collab_ai4ph_data_challenge_team4   | Data for City 4        |
-| AI4PH Data Challenge Team 5   | collab_ai4ph_data_challenge_team5   | Data for City 5        |
-
-
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 
 The datasets are Google Street View (GSV) images of major cities in Canada, which are scrapped for the following published paper https://www.nature.com/articles/s41598-022-22630-1. Images are postal-code level and are grouped by cities. For each postal code, 12 images are included. Six of them were taken at a 0-degree angle from the horizontal line and the other six were at 60 degrees. At the same horizontal angle, the camera was rotated 60 degrees each time to take a picture, ending up with six angels: 0°, 60°, 120°, 180°, 240°, 300°. For example (see below), ‘T0A0A6_0_120.jpg’ shows a picture taken at a 0-degree horizontal angle, and 120° rotated and the postal code is T0A0A6.
