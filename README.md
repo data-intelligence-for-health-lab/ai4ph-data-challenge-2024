@@ -33,7 +33,7 @@ Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a bet
 
 T0A0A6_0_0.jpg T0A0A6_0_60.jpg T0A0A6_0_120.jpg
      |
-
+|  |  |  |
 | --- | --- | --- |
 | git status | List all new or modified files | List all new or modified files |
 | git diff | Show file differences that haven't been staged | List all new or modified files |
