@@ -69,7 +69,7 @@ Image features, including persons, bicycles, vehicles, sky, greenness, etc., can
 - Visualization Tools: Matplotlib, Seaborn, Plotly
 
 ## Challenges and considerations
-- Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. Here is some text with <span style="background-color: yellow;">Destroy the data after the completion of the summer institute! </span>.
+- Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. **Destroy the data after the completion of the summer institute!**
 
   
 ## Expected outcomes
