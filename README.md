@@ -40,7 +40,6 @@ Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a bet
 | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/40a79c75-704f-40b4-8069-d0cbb77a9173) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/b90783cb-a346-4f04-b9ad-b379a7e38d58) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/91efb5c4-b476-4fe0-ba1d-16537345662a) |
 | T0A0A6_60_180.jpg | T0A0A6_60_240.jpg | T0A0A6_60_300.jpg |
 
-
 The datasets are Google Street View (GSV) images of major cities in Canada, which are scrapped for the following published paper https://www.nature.com/articles/s41598-022-22630-1. Images are postal-code level and are grouped by cities. For each postal code, 12 images are included. Six of them were taken at a 0-degree angle from the horizontal line and the other six were at 60 degrees. At the same horizontal angle, the camera was rotated 60 degrees each time to take a picture, ending up with six angels: 0°, 60°, 120°, 180°, 240°, 300°. For example (see below), ‘T0A0A6_0_120.jpg’ shows a picture taken at a 0-degree horizontal angle, and 120° rotated and the postal code is T0A0A6.
 
 Image features, including persons, bicycles, vehicles, sky, greenness, etc., can be extracted through deep learning algorithms, like Image Classification (PSPNet - https://github.com/segcv/PSPNet) and Object Detection (Yolo - https://github.com/ultralytics/ultralytics) .
@@ -70,12 +69,13 @@ Image features, including persons, bicycles, vehicles, sky, greenness, etc., can
 - Visualization Tools: Matplotlib, Seaborn, Plotly
 
 ## Challenges and considerations
-- Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. Destroy the data after the completion of the summer institute. 
+- Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. Here is some text with <span style="background-color: yellow;">Destroy the data after the completion of the summer institute! </span>.
+
   
 ## Expected outcomes
 - Deprivation prediction method: A robust deep learning model capable of predicting material or social deprivation from street-level images.
 - Presentation (key components)
-  - Research question: List and explain the hypotheses regarding indicators of deprivation from street features
+  - Research question: List and explain the hypotheses regarding indicators of deprivation from street features.
   - Insightful analysis: The understanding of the visual indicators of deprivation and their correlations to deprivation or urban public health.
-  - Timing requirements: 15 mins (Presentation) + 5 mins (Q&A), 2 hours in total, 5 groups
+  - Timing requirements (2 hours in total): 15 mins (Presentation) + 5 mins (Q&A) per group.
 
