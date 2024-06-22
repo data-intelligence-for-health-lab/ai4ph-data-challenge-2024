@@ -15,7 +15,7 @@ For example:
 - Feature importance analysis
 
 Each group will be assigned:
-- a Google account with Colab Pro; create 5 Google accounts/collab, ai4ph data challenge team 1-5, upload data.
+- A Google account with Colab Pro;
 - The data for one of the five cities.
 
 ## Datasets
