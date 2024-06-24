@@ -16,7 +16,7 @@ For example:
 
 Each group will be assigned:
 - A Google account with Colab Pro;
-- The data for one of the five cities.
+- The dataset of one of the five cities.
 
 ## Datasets
 
