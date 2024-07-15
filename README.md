@@ -11,8 +11,8 @@ This Data Challenge project aims to study the association between urban environm
 
 For example: 
 - Develop a deep learning model that analyzes street-level images of urban environments to assess material and social deprivation status. This model will leverage computer vision techniques to identify indicators of deprivation and predict the deprivation indices.
-- Develop a deep learning model to detect objects from images and correlate them with deprivation using statistical modelling.
-- Feature importance analysis
+- Employ a deep learning model to detect objects from images and correlate them with deprivation using statistical modelling.
+- Analyze feature importance.
 
 Each group will be assigned:
 - A Google account with Colab Pro;
