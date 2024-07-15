@@ -14,9 +14,7 @@ For example:
 - Employ a deep learning model to detect objects from images and correlate them with deprivation using statistical modelling.
 - Analyze feature importance.
 
-Each group will be assigned:
-- A Google account with Colab Pro;
-- The dataset of one of the five cities.
+Each group will be provided with a Google account that has been pre-loaded with the data from one city.
 
 ## Datasets
 
