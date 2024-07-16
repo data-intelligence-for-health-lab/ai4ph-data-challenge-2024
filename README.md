@@ -6,7 +6,7 @@ Material and social deprivation are critical issues affecting urban populations 
 
 Recent advances in computer vision and deep learning offer new opportunities to analyze urban environments using street-level imagery. Street-level images provide a rich visual context that can capture subtle indicators of deprivation, such as the condition of buildings, presence of litter, and availability of community services. By leveraging these visual cues, it is possible to develop automated systems that can assess material and social deprivation more efficiently and accurately.
 
-## Data Challenge Objective
+## Data Challenge Goals
 This Data Challenge aims to study the association between urban environments and material and social deprivation status. The urban environment can be understood by street-level images. We have provided the street view images from five Canadian cities and public health related data - Material and Social Deprivation indices. You and your team should apply deep learning algorithms you learned to extract street features (i.e., greenness, sky proportion, pedestrian count, etc.) and raise appropriate research questions to provide insights into Canadian urban public health.
 
 Possible objectives include but not limited to: 
