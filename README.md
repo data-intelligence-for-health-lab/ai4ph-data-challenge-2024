@@ -83,7 +83,9 @@ The provided datasets can only be used for this Data Challenge. **If you make an
   
 ## Deliverable
 All groups are required to give a presentation that adheres to the following:
-  - Clear state your group's research question, hypotheses, and/or objectives.
-  - Describe the methods your group undertook and the results
+  - Clearly state your group's research questions, hypotheses, and/or objectives.
+  - Describe the methods your group undertook.
+  - Present the results and draw conclusions.
+  - Discuss limitations and other approaches that could have been pursued.
   - 15 minutes for the presentation + 5 minutes of Q&A per group.
 
