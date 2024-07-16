@@ -16,7 +16,7 @@ Possible objectives include but not limited to:
 
 For example, you could come up with the hypothesis that areas with higher levels of greenness, better-maintained roads and sidewalks have lower material and social deprivation. You could then design your experiments accordingly to generate results to test this hypothesis. Again, this is just one example.
 
-## Datasets
+## Data Set
 Each group is provided with a Google account that has been pre-loaded with data from one city. Each group is assigned to a city as follows:
 - Group 1: Calgary
 - Group 2: Vancouver
@@ -50,24 +50,10 @@ We also provided a metadata table that links the postal codes of each city to th
 Please note that for SCOREMAT and SCORESOC lower scores (e.g., below zero) indicate a better status (less deprivation), while scores higher than zero indicate a worse status (more deprivation).
 
 ## Example Code
-Example code is provided in this repo which collectively includes the steps below. Please use the example code as a starting point and modify it to suit your objectives.
-
-- Data preprocessing
-  - Image scaling, stitching, cropping, etc.
-- Feature extraction
-  - Use computer vision techniques (e.g., CNNs, object detection, image segmentation) to extract features from the images.
-- Model development
-  - Develop machine learning models (e.g., random forests, gradient boosting, neural networks) to predict deprivation indices based on extracted features.
-- Training and validation
-  - Using the annotated dataset, optimizing for performance metrics such as accuracy, precision, recall, and F1-score.
-- Feature analysis and correlation
-  - Conduct feature importance analysis to identify the most significant predictors of deprivation.  - 
-- Evaluation and impact
-  - Test the models on unseen data to evaluate their robustness and generalizability.
-  - Provide visualizations or insights about urban public health based on the model results.
+Example code is provided in this repo which collectively includes the steps below. Please use the example code as a starting point and modify it appropriately to suit your objectives. You are welcome to try new methods that are outside of the example code but please be mindful of the limited time you have to work on this Data Challenge.
  
 ## Computational Environment and Time
-It would be easiest if you work on the Data Challenge within Google Colab. You can either use the Google account provided to your team or your personal Google account if you wish, but please try to access the datasets as shown in the example code rather than copying and moving them out of the provided account (see below regarding data privacy).
+It would be easiest if you work on the Data Challenge within Google Colab. You can either use the Google account provided to your team or your personal Google account if you wish, but please try to access the data set as shown in the example code rather than copying and moving them out of the provided account (see below regarding data privacy).
 
 The free version of Google Colab will be sufficient to run your code within reasonable time (30-45 min for most relatively heavy jobs being run on all 1000 postal codes). If you want to quickly pilot something, you may want to use a subset of the data. You may want to run heavy jobs overnight to be efficient with your time. 
 
@@ -79,7 +65,7 @@ The free version of Google Colab will be sufficient to run your code within reas
 - Visualization Tools: Matplotlib, Seaborn, Plotly
 
 ## Data Privacy
-The provided datasets can only be used for this Data Challenge. **If you make any copies of the datasets and store them outside of the provided Google account, please destroy them once the Summer Institute ends!** It would be ideal to simply access the data in the provided Google account as shown in the example code (from within the provided Google account or your personal Google account) rather than copying them to your local machine or personal Google account. 
+The provided data set can only be used for this Data Challenge. **If you make any copies of the data set and store them outside of the provided Google account, please destroy them once the Summer Institute ends!** It would be ideal to simply access the data in the provided Google account as shown in the example code (from within the provided Google account or your personal Google account) rather than copying them to your local machine or personal Google account. 
   
 ## Deliverable
 All groups are required to give a presentation that adheres to the following:
