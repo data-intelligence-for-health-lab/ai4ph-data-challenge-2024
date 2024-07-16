@@ -1,31 +1,32 @@
 # ai4ph-data-challenge-2024
 This is the main site for the 2024 AI4PH Summer Institute Data Challenge.
 
-## Project background
+## Project Background
 Material and social deprivation are critical issues affecting urban populations worldwide. These forms of deprivation refer to inadequate access to essential resources, such as income, housing, healthcare, education, and social services, leading to significant disparities in quality of life. Traditional methods of assessing deprivation rely heavily on socio-economic surveys and administrative data, which can be resource-intensive and may not provide a real-time or comprehensive view of urban environments.
 
 Recent advances in computer vision and deep learning offer new opportunities to analyze urban environments using street-level imagery. Street-level images provide a rich visual context that can capture subtle indicators of deprivation, such as the condition of buildings, presence of litter, and availability of community services. By leveraging these visual cues, it is possible to develop automated systems that can assess material and social deprivation more efficiently and accurately.
 
-## Project objective
-This Data Challenge project aims to study the association between urban environments and material and social deprivation status. The urban environment can be understood by street-level images. We have provided the street view images from five Canadian cities and public health related data - Material and Social Deprivation indices. You and your team should apply deep learning algorithms you learned to extract street features (i.e., greenness, sky proportion, pedestrian count, etc.) and raise appropriate research questions to provide insights into Canadian urban public health.
+## Data Challenge Objective
+This Data Challenge aims to study the association between urban environments and material and social deprivation status. The urban environment can be understood by street-level images. We have provided the street view images from five Canadian cities and public health related data - Material and Social Deprivation indices. You and your team should apply deep learning algorithms you learned to extract street features (i.e., greenness, sky proportion, pedestrian count, etc.) and raise appropriate research questions to provide insights into Canadian urban public health.
 
-For example: 
+Possible objectives include but not limited to: 
 - Develop a deep learning model that analyzes street-level images of urban environments to assess material and social deprivation status. This model will leverage computer vision techniques to identify indicators of deprivation and predict the deprivation indices.
 - Employ a deep learning model to detect objects from images and correlate them with deprivation using statistical modelling.
 - Analyze feature importance.
 
-Each group will be provided with a Google account that has been pre-loaded with the data from one city.
+For example, you could come up with the hypothesis that areas with higher levels of greenness, better-maintained roads and sidewalks have lower material and social deprivation. You could then design your experiments accordingly to generate results to test this hypothesis. Again, this is just one example.
 
 ## Datasets
+Each group is provided with a Google account that has been pre-loaded with data from one city. Each group is assigned to a city as follows:
+- Group 1: Calgary
+- Group 2: Vancouver
+- Group 3: Winnipeg
+- Group 4: Toronto
+- Group 5: Montreal
 
-The study area included data from five large cities across Canada: Vancouver, Calgary, Winnipeg, Toronto, and Montreal. We randomly selected 1000 postal codes for each city, and each postal code contained 12 images. You and your group will be assigned one city to analyze. You do not need to use all images but analyze them based on the specific research questions you raise. 
+### Google Street View (GSV) Images
 
-We provided a data table that linked the postal codes of each city to their deprivation indices (material and social deprivation status):
-- The dataset contains 5 elements, such as postal code (POSTALCODE_15), city name (COMM_NAME_15), dissemination area (DA), material deprivation (SCOREMAT), and social deprivation (SCORESOC), which are linked from 3 individual tables. 
-		
-Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a better status (less deprivation), while scores higher than zero indicate a worse status (more deprivation).
-
-- The image dataset
+We randomly selected 1000 postal codes for each city, and each postal code contained 12 images. You do not need to use all images but analyze them based on the specific research questions you raise. Using fewer images will reduce computational time, which will be helpful when you are experimenting with different ideas initially.
 
 |  |  |  |
 | --- | --- | --- |
@@ -38,12 +39,18 @@ Notes: for SCOREMAT and SCORESOC, lower scores (e.g., below zero) indicate a bet
 | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/40a79c75-704f-40b4-8069-d0cbb77a9173) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/b90783cb-a346-4f04-b9ad-b379a7e38d58) | ![image](https://github.com/data-intelligence-for-health-lab/ai4ph-data-challenge-2024/assets/134657579/91efb5c4-b476-4fe0-ba1d-16537345662a) |
 | T0A0A6_60_180.jpg | T0A0A6_60_240.jpg | T0A0A6_60_300.jpg |
 
-The datasets are Google Street View (GSV) images of major cities in Canada, which are scrapped for the following published paper https://www.nature.com/articles/s41598-022-22630-1. Images are postal-code level and are grouped by cities. For each postal code, 12 images are included. Six of them were taken at a 0-degree angle from the horizontal line and the other six were at 60 degrees. At the same horizontal angle, the camera was rotated 60 degrees each time to take a picture, ending up with six angels: 0°, 60°, 120°, 180°, 240°, 300°. For example (see below), ‘T0A0A6_0_120.jpg’ shows a picture taken at a 0-degree horizontal angle, and 120° rotated and the postal code is T0A0A6.
+The GSV images were scraped for the following published paper: https://www.nature.com/articles/s41598-022-22630-1. Images are at the postal-code level and are grouped by city. For each postal code, 12 images are provided. Six of them were taken at a 0-degree angle from the horizontal line and the other six were at 60 degrees. At the same horizontal angle, the camera was rotated 60 degrees each time to take a picture, ending up with six angels: 0°, 60°, 120°, 180°, 240°, 300°. For example (see below), ‘T0A0A6_0_120.jpg’ shows a picture taken at a 0-degree horizontal angle, and 120° rotated and the postal code is T0A0A6.
 
-Image features, including persons, bicycles, vehicles, sky, greenness, etc., can be extracted through deep learning algorithms, like Image Classification (PSPNet - https://github.com/segcv/PSPNet) and Object Detection (Yolo - https://github.com/ultralytics/ultralytics) .
+Image features, including persons, bicycles, vehicles, sky, greenness, etc., can be extracted using deep learning algorithms for image classification (e.g., PSPNet - https://github.com/segcv/PSPNet) or object detection (e.g., Yolo - https://github.com/ultralytics/ultralytics).
+
+### Metadata Table
+
+We also provided a metadata table that links the postal codes of each city to their deprivation indices (material and social deprivation status). This table contains 5 columns: postal code (POSTALCODE_15), city name (COMM_NAME_15), dissemination area (DA), material deprivation (SCOREMAT), and social deprivation (SCORESOC). 
+		
+Please note that for SCOREMAT and SCORESOC lower scores (e.g., below zero) indicate a better status (less deprivation), while scores higher than zero indicate a worse status (more deprivation).
 
 ## Project outline
-### For example, you could come up with the hypothesis that areas with higher levels of greenness, better-maintained roads and sidewalks have lower material and social deprivation.
+### 
 
 - Data collection
   - Choose the data from one of the five cities.
