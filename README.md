@@ -73,5 +73,7 @@ All groups are required to give a presentation that adheres to the following:
   - Describe the methods your group undertook.
   - Present the results and draw conclusions.
   - Discuss limitations and other approaches that could have been pursued.
+  - Describe each team member's contributions
+  - Share any other learnings!
   - 15 minutes for the presentation + 5 minutes of Q&A per group.
 
