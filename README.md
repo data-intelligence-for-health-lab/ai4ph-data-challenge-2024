@@ -49,19 +49,19 @@ We also provided a metadata table that links the postal codes of each city to th
 		
 Please note that for SCOREMAT and SCORESOC lower scores (e.g., below zero) indicate a better status (less deprivation), while scores higher than zero indicate a worse status (more deprivation).
 
-## Project outline
-### 
+## Example Code
+Example code is provided in this repo which collectively includes the following steps:
 
-- Data collection
-  - Choose the data from one of the five cities.
 - Data preprocessing
-  - Feature extraction: Use computer vision techniques (e.g., CNNs, object detection, image segmentation) to extract features from the images.
+  - Image scaling, stitching, cropping, etc.
+- Feature extraction
+  - Use computer vision techniques (e.g., CNNs, object detection, image segmentation) to extract features from the images.
 - Model development
   - Develop machine learning models (e.g., random forests, gradient boosting, neural networks) to predict deprivation indices based on extracted features.
 - Training and validation
   - Using the annotated dataset, optimizing for performance metrics such as accuracy, precision, recall, and F1-score.
 - Feature analysis and correlation
-  - Conduct feature importance analysis to identify the most significant predictors of deprivation.
+  - Conduct feature importance analysis to identify the most significant predictors of deprivation.  - 
 - Evaluation and impact
   - Test the models on unseen data to evaluate their robustness and generalizability.
   - Provide visualizations or insights about urban public health based on the model results.
@@ -73,8 +73,8 @@ Please note that for SCOREMAT and SCORESOC lower scores (e.g., below zero) indic
 - Data Analysis Libraries: pandas, NumPy, SciPy
 - Visualization Tools: Matplotlib, Seaborn, Plotly
 
-## Challenges and considerations
-- Data Privacy: Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. **Destroy the data after the completion of the summer institute!**
+## Data Privacy
+The provided datasets can only be used for this Data Challenge. If you make any copies of the datasets and store them outside of the provided Google account, please destroy them once the Summer Institute ends. Ensure the collection and use of street-level images comply with privacy regulations and ethical standards. **Destroy the data after the completion of the summer institute!**
 
   
 ## Expected outcomes
